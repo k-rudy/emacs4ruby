@@ -8,7 +8,7 @@ Installation
 
 1. Install Emacs 24 (for Ubuntu consider reading the [following](https://launchpad.net/~cassou/+archive/emacs guide) guide)
 
-2. Backup your old Emacs configuration: 
+2. Backup your old Emacs configuration:
 > $ mv .emacs  .emacs.bkp
 >
 > $ mv .emacs.d .emacs.d.bkp
@@ -30,10 +30,10 @@ Applying custom settings
 
 In order to sync your custom settings on different PCs and keep them under source control create symlinks for custom Emacs configs
 > ln -s user &lt;user>
-> 
+>
 > ln -s user.el &lt;user>.el
 
-Then just add those symlinks into `.gitignore` and go on and store your customizations in `user` dir and `user.el` config 
+Then just add those symlinks into `.gitignore` and go on and store your customizations in `user` dir and `user.el` config
 
 After starting Emacs you should see applied railscasts color theme and no error messages
 
@@ -51,7 +51,7 @@ Default project is loaded from `user.el` using the following line:
 
 Change it on your own if you need that
 
-Activating Project IDE mode 
+Activating Project IDE mode
 ---------------------------
 
 To activate IDE mode, run
@@ -63,7 +63,7 @@ You can definitely configure to have it activated by default, but I prefer to ac
 Switching between projects
 --------------------------
 
-To switch to another project on the fly, simply: 
+To switch to another project on the fly, simply:
 
 1. Deactivate ECB:
 > M+x ecb-deactivate
@@ -73,5 +73,10 @@ To switch to another project on the fly, simply:
 
 3. Activate ECB:
 > M+x ecb-activate
+
+Replace Ctrl with CapsLock on Ubuntu
+------------------------------------
+
+If you care about your hands when using emacs read the [following](http://emacswiki.org/emacs/MovingTheCtrlKey) guide
 
 Enjoy your Ruby coding with Emacs!
