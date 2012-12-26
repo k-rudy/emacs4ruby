@@ -69,7 +69,7 @@ To switch to another project on the fly, simply:
 > M+x ecb-deactivate
 
 2. Load project specific settings using:
-> M+x load-file ~/.emacs.d/projects/<project_file_name>.el
+> M+x load-file ~/.emacs.d/projects/&lt;project_file_name>.el
 
 3. Activate ECB:
 > M+x ecb-activate
