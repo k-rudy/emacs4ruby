@@ -18,8 +18,8 @@ Installation
 4. Start Emacs 24
 
 5. Install starter-kit using:
-`M-x package-refresh-contents
- M-x package-install RET starter-kit RET`
+> M-x package-refresh-contents
+> M-x package-install RET starter-kit RET
 
 6. Exit Emacs
 
@@ -27,8 +27,8 @@ Applying custom settings
 ------------------------
 
 In order to sync your custom settings on different PCs and keep them under source control create symlinks for custom Emacs configs
-> ln -s user <user> 
-> ln -s user.el <user>.el
+> ln -s user &lt;user> 
+> ln -s user.el &lt;user>.el
 
 Then just add those symlinks into `.gitignore` and go on and store your customizations in `user` dir and `user.el` config 
 
@@ -42,9 +42,8 @@ In default case the only thing that changes from project to project is ECB sourc
 
 Those specific settings are located in separate files under `projects` folder.
 Default project is loaded from `user.el` using the following line:
-
-`;; Default project to load
- (load "~/.emacs.d/projects/datac.el")`
+>;; Default project to load
+>(load "~/.emacs.d/projects/datac.el")
 
 Change it on your own if you need that
 
@@ -63,16 +62,15 @@ Switching between projects
 To switch to another project on the fly, simply: 
 
 1. Deactivate ECB:
-`M+x ecb-deactivate`
+> M+x ecb-deactivate
 
 2. Load project specific settings using:
-`M+x load-file ~/.emacs.d/projects/<project_file_name>.el`
+> M+x load-file ~/.emacs.d/projects/<project_file_name>.el
 
 3. Activate ECB:
-`M+x ecb-activate`
+> M+x ecb-activate
 
 Enjoy you Ruby coding with Emacs!
-k-rudy.
 
 
 
