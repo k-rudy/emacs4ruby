@@ -2,7 +2,7 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb-snapshot ruby-mode color-theme)
+(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb-snapshot ruby-mode color-theme markdown-mode)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
@@ -11,6 +11,12 @@
 
 ;; Needed to get rid of ECB stack error
 (setq stack-trace-on-error t)
+
+;; Link markdown mode to .md files
+(setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+
+;; Remove trailing whitespaces before save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Default project to load
 (load "~/.emacs.d/projects/datac.el")
