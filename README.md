@@ -74,7 +74,7 @@ To switch to another project on the fly, simply:
 3. Activate ECB:
 > M+x ecb-activate
 
-Enjoy you Ruby coding with Emacs!
+Enjoy your Ruby coding with Emacs!
 
 
 
