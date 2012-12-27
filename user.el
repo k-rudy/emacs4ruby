@@ -2,7 +2,7 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb color-theme markdown-mode flymake-ruby)
+(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings ecb color-theme markdown-mode ruby-mode flymake-ruby inf-ruby ruby-electric ruby-end ruby-test-mode robe)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
@@ -21,7 +21,11 @@
 ;; Show line numbers
 (global-linum-mode 1)
 
-;; Flymake initialization for ruby syntax checking
+;; Robe initialization
+(add-hook 'ruby-mode-hook 'robe-mode)
+
+; Flymake initialization for ruby syntax checking
+(require 'flymake-ruby)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
 ;; Default project to load
