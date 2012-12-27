@@ -2,7 +2,7 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb-snapshot ruby-mode color-theme markdown-mode flymake-ruby)
+(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb color-theme markdown-mode flymake-ruby)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
@@ -20,6 +20,9 @@
 
 ;; Show line numbers
 (global-linum-mode 1)
+
+;; Flymake initialization for ruby syntax checking
+(add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
 ;; Default project to load
 (load "~/.emacs.d/projects/datac.el")
