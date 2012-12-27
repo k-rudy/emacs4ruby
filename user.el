@@ -2,7 +2,7 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb-snapshot ruby-mode color-theme markdown-mode)
+(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings starter-kit-ruby ecb-snapshot ruby-mode color-theme markdown-mode flymake-ruby)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
@@ -17,6 +17,9 @@
 
 ;; Remove trailing whitespaces before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; Show line numbers
+(global-linum-mode 1)
 
 ;; Default project to load
 (load "~/.emacs.d/projects/datac.el")
