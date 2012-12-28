@@ -1,1 +1,1 @@
-(setq ecb-source-path (quote (("/home/user/dev/dailyfitlog/" "/dailyfitlog"))))
+(setq ecb-source-path (quote (("~/dev/dailyfitlog/" "/dailyfitlog"))))
