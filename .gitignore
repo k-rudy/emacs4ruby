@@ -2,3 +2,5 @@ backups/
 elpa/
 places
 .smex-items
+krudy
+krudy.el
