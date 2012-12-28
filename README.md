@@ -6,7 +6,7 @@ My custom Emacs 24 config for Ruby and RubyOnRails development. It's based on em
 Installation
 ------------
 
-1. Install Emacs 24 (for Ubuntu consider reading the [following](https://launchpad.net/~cassou/+archive/emacs guide) guide)
+1. Install Emacs 24 (for Ubuntu consider reading the [following](https://launchpad.net/~cassou/+archive/emacs) guide)
 
 2. Backup your old Emacs configuration:
 > $ mv .emacs  .emacs.bkp
