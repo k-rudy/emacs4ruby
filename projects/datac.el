@@ -1,1 +1,1 @@
-(setq ecb-source-path (quote (("/home/user/dev/datac/" "/datac"))))
+(setq ecb-source-path (quote (("~/dev/datac/" "/datac"))))
