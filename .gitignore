@@ -4,3 +4,6 @@ places
 .smex-items
 krudy
 krudy.el
+auto-save-list/
+eshell/
+session.*

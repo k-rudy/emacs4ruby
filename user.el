@@ -2,7 +2,7 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings ecb color-theme markdown-mode ruby-mode flymake-ruby inf-ruby ruby-electric ruby-end ruby-test-mode robe)
+(defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings ecb color-theme markdown-mode ruby-mode flymake-ruby inf-ruby ruby-electric ruby-end ruby-test-mode robe lua-mode ruby-compilation)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
@@ -15,6 +15,10 @@
 ;; Link markdown mode to .md files
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
+;; Link ruby mode to files
+(setq auto-mode-alist (cons '("Gemfile" . ruby-mode) auto-mode-alist))
+
+
 ;; Remove trailing whitespaces before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
@@ -23,8 +27,8 @@
 
 ;; Beginning of the el4r block:
 ;; RCtool generated this block automatically. DO NOT MODIFY this block!
-(add-to-list 'load-path "~/.rvm/rubies/ruby-1.9.3-p327/share/emacs/site-lisp")
-(require 'el4r)
+;;(add-to-list 'load-path "~/.rvm/rubies/ruby-1.9.3-p327/share/emacs/site-lisp")
+;;(require 'el4r)
 ;;(el4r-boot)
 ;; End of the el4r block.
 ;; User-setting area is below this line.
