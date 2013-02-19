@@ -16,8 +16,8 @@
 (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
 ;; Link ruby mode to files
-(setq auto-mode-alist (cons '("Gemfile" . ruby-mode) auto-mode-alist))
-
+(setq auto-mode-alist (cons '("\\.\\(rb\\|ru\\|builder\\|rake\\|thor\\|gemspec\\)\\'" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\(rake\\|thor\\|guard\\|gem\\|cap\\|vagrant\\)file\\'" . ruby-mode) auto-mode-alist))
 
 ;; Remove trailing whitespaces before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
