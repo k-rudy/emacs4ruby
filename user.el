@@ -3,7 +3,7 @@
 
 ;; Add in your own as you wish:
 (defvar my-packages '(starter-kit starter-kit-lisp starter-kit-bindings ecb color-theme markdown-mode ruby-mode flymake-ruby
-                      inf-ruby ruby-electric ruby-end ruby-test-mode robe lua-mode ruby-compilation rvm)
+                      inf-ruby ruby-electric ruby-end ruby-test-mode robe lua-mode ruby-compilation rvm rinari)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
