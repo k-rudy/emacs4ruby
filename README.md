@@ -40,11 +40,12 @@ After starting Emacs you should see applied railscasts color theme and no error 
 Working with project-specific settings
 --------------------------------------
 
-Usually when working on multiple projects there are only few options that are changed, while others remain the same.
-In default case the only thing that changes from project to project is ECB source path
+Usually when working on multiple projects there are only few options
+that are changed, while others remain the same. In default case the
+only thing that changes from project to project is ECB source path
 
-Those specific settings are located in separate files under `projects` folder.
-Default project is loaded from `user.el` using the following line:
+Those specific settings are located in separate files under `projects`
+folder. Default project is loaded from `user.el` using the following line:
 >;; Default project to load
 >
 >(load "~/.emacs.d/projects/datac.el")
@@ -58,7 +59,9 @@ To activate IDE mode, run
 
 > M+x ecb-activate
 
-You can definitely configure to have it activated by default, but I prefer to activate it manually to be able to use Emacs for editing simple file in everyday's life without those ECB goodies.
+You can definitely configure to have it activated by default, but I
+prefer to activate it manually to be able to use Emacs for editing
+simple file in everyday's life without those ECB goodies.
 
 Switching between projects
 --------------------------
@@ -77,6 +80,8 @@ To switch to another project on the fly, simply:
 Replace Ctrl with CapsLock on Ubuntu
 ------------------------------------
 
-If you care about your hands when using emacs read the [following](http://emacswiki.org/emacs/MovingTheCtrlKey) guide
+If you care about your hands when using emacs read the
+[following](http://emacswiki.org/emacs/MovingTheCtrlKey) guide.
+Some usefull Emacs tips from Avdi Grimm are [here](http://devblog.avdi.org/category/emacs-reboot/)
 
 Enjoy your Ruby coding with Emacs!
