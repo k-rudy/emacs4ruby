@@ -94,8 +94,7 @@ Modes documentation
 
 Mode | Purpose | Link
 --- | --- | ---
-markdown | syntax |
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+markdown | syntax | https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 markdown | mode | http://jblevins.org/projects/markdown-mode
 
 
