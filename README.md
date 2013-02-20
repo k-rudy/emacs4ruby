@@ -82,6 +82,21 @@ Replace Ctrl with CapsLock on Ubuntu
 
 If you care about your hands when using emacs read the
 [following](http://emacswiki.org/emacs/MovingTheCtrlKey) guide.
-Some usefull Emacs tips from Avdi Grimm are [here](http://devblog.avdi.org/category/emacs-reboot/)
+
+Emacs links
+-----------
+
+1. Some usefull Emacs tips from Avdi Grimm are
+[here](http://devblog.avdi.org/category/emacs-reboot/)
+
+Modes documentation
+-------------------
+
+| Mode          | Purpose       | Link
+|                                                                  |
+| ------------- | ------------- |
+------------------------------------------------------------------ |
+| markdown      | syntax        |
+| https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet |
 
 Enjoy your Ruby coding with Emacs!
