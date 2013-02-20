@@ -92,11 +92,9 @@ Emacs links
 Modes documentation
 -------------------
 
-| Mode          | Purpose       | Link
-|                                                                  |
-| ------------- | ------------- |
------------------------------------------------------------------- |
-| markdown      | syntax        |
-| https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet |
+Mode | Purpose | Link
+--- | --- | ---
+markdown | syntax | https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 
 Enjoy your Ruby coding with Emacs!
