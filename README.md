@@ -25,6 +25,9 @@ Installation
 
 6. Exit Emacs
 
+7. Install Oracle JRE in order to enable Rsense mode for ruby
+autocompletion (For Ubuntu 12.10 users guide is [here](http://www.liberiangeek.net/2012/11/install-oracle-java-jrejdk-6-in-ubuntu-12-10-quantal-quetzal/))
+
 Applying custom settings
 ------------------------
 
@@ -88,6 +91,7 @@ Emacs links
 
 1. Some usefull Emacs tips from Avdi Grimm are
 [here](http://devblog.avdi.org/category/emacs-reboot/)
+2. [List](http://batsov.com/articles/2011/11/30/the-ultimate-collection-of-emacs-resources/) of the most popular Emacs resources
 
 Modes documentation
 -------------------
@@ -96,6 +100,7 @@ Mode | Purpose | Link
 --- | --- | ---
 markdown | syntax | https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 markdown | mode | http://jblevins.org/projects/markdown-mode
+rsense | manual | http://cx4a.org/software/rsense/manual.html
 
 
 Enjoy your Ruby coding with Emacs!
