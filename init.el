@@ -13,6 +13,7 @@
  '(ecb-layout-name "left7")
  '(ecb-options-version "2.40")
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
+ '(ecb-source-path (quote (("~/Dropbox/iTransition/Projects/Coolbrix/coolbrix/" "/coolbrix"))))
  '(ecb-tip-of-the-day nil)
  '(safe-local-variable-values (quote ((encoding . utf-8) (whitespace-line-column . 80) (lexical-binding . t)))))
 (custom-set-faces
